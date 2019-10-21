@@ -9,48 +9,49 @@
     android:layout_gravity="center_vertical"
     tools:context=".MainActivity" >
 
-    <TextView
+    <!--<TextView
         android:id="@+id/result_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:textSize="30sp"
-        android:text="Hello World!" />
+        android:text="Hello World!" />-->
 
-    <TextView
+    <!--<TextView
         android:id="@+id/result_text2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:textSize="30sp"
-        android:text="Hello World 2!" />
-    <TextView
+        android:text="Hello World 2!" />-->
+
+    <!--<TextView
         android:id="@+id/result_text3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:textSize="30sp"
-        android:text="Hello World 3!" />
+        android:text="Hello World 3!" />-->
+    <ImageView
+        android:id="@+id/dice_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/empty_dice"
+        tools:src="@drawable/dice_1"/>
 
+    <ImageView
+        android:id="@+id/dice_image2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/empty_dice"
+        tools:src="@drawable/dice_2" />
     <Button
         android:id="@+id/roll_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:text="@string/roll_label" />
-
-    <Button
-        android:id="@+id/roll_button2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:text="@string/roll_label2" />
-
-    <Button
-        android:id="@+id/roll_button3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:text="@string/roll_label3" />
 
 </LinearLayout>
