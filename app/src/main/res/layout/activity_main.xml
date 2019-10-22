@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
 <LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:layout_marginTop="100dp"
     android:layout_height="wrap_content"
     android:orientation="vertical"
     android:layout_gravity="center_vertical"
@@ -47,6 +53,14 @@
         android:layout_gravity="center_horizontal"
         android:src="@drawable/empty_dice"
         tools:src="@drawable/dice_2" />
+    <ImageView
+        android:id="@+id/dice_image3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/empty_dice"
+        tools:src="@drawable/dice_3" />
+
     <Button
         android:id="@+id/roll_button"
         android:layout_width="wrap_content"
@@ -54,4 +68,18 @@
         android:layout_gravity="center_horizontal"
         android:text="@string/roll_label" />
 
+    <Button
+        android:id="@+id/roll_button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/roll_label2" />
+
+    <Button
+        android:id="@+id/roll_button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/roll_label3" />
 </LinearLayout>
+</ScrollView>
